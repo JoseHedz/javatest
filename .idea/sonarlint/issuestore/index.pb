@@ -5,3 +5,5 @@ j
 :src/main/java/com/example/javatest/movies/model/Movie.java,6/4/64cf9e4a902a92c7f509f30680e08f4a7fc41dc8
 j
 :src/main/java/com/example/javatest/movies/model/Genre.java,4/8/48eee5d9eeca9b00abbc35cf008c6c49d46babf9
+s
+Csrc/main/java/com/example/javatest/movies/service/MovieService.java,b/9/b917d9a2d89e5168f35bd2ddac0ce0189b4808e0
