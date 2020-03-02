@@ -8,7 +8,8 @@ public class Movie {
     private int minutes;
     private Genre genre;
 
-    public Movie(String name, int minutes, Genre genre) {
+    public Movie(String name, int minutes, Genre genre)
+    {
         this(null, name, minutes, genre);
     }
 

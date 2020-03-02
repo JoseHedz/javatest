@@ -5,6 +5,7 @@ import com.example.javatest.movies.model.Genre;
 import com.example.javatest.movies.model.Movie;
 
 import java.util.Collection;
+
 import java.util.stream.Collectors;
 
 public class MovieService{
@@ -14,7 +15,7 @@ public class MovieService{
         this.movieRepository = movieRepository;
     }
     public Collection<Movie> findMoviesByGenre(Genre genre){
-        return movieRepository.findAll().stream().filter(movie -> movie.getGenre()==genre).collect(Collectors.toList());
+        return movieRepository.findAll().stream().filter(movie -> movie.getGenre() == genre).collect(Collectors.toList());
     }
 
     public Collection<Movie> findMoviesByLength(int length){

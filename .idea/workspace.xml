@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195a8710-0aef-42b4-ae98-42e8a50c83bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatest/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javatest/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/javatest/movies/service/MovieServiceShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b917d9a2d89e5168f35bd2ddac0ce0189b4808e0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b917d9a2d89e5168f35bd2ddac0ce0189b4808e0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javatest/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javatest/movies/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javatest/movies/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javatest/movies/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/javatest/movies/data/MovieRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/javatest/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/discounts/PriceCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/discounts/PriceCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/fizzbuzz/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/fizzbuzz/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/data/MovieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/data/MovieRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/model/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/model/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/movies/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentGateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentResponse$PaymentStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentResponse$PaymentStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/payments/PaymentResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/player/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/player/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javatest/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javatest/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatest/discounts/PriceCalculatorShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatest/discounts/PriceCalculatorShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatest/fizzbuzz/FizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatest/fizzbuzz/FizzBuzzTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatest/payments/PaymentProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatest/payments/PaymentProcessorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatest/player/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatest/player/PlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatest/util/DateUtilLeapYearShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatest/util/DateUtilLeapYearShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/javatest/util/StringUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/javatest/util/StringUtilTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,107 +67,110 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.javatest.movies.data" />
+      <recent name="com.example.javatest.movies.service" />
       <recent name="com.example.javatest.fizzbuzz" />
       <recent name="com.example.javatest.discounts" />
       <recent name="com.example.javatest.util" />
-      <recent name="com.example.javatest.payments" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.javatest.movies.data" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MovieRepositoryIntegrationTest">
+    <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatest.fizzbuzz.*" />
+          <option name="PATTERN" value="com.example.javatest.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatest.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatest.fizzbuzz.FizzBuzzTest" />
+      <option name="PACKAGE_NAME" value="com.example.javatest.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatest.movies.data.MovieRepositoryIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.when_is_dividible_per_5_is_Buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryIntegrationTest.insert_a_movie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatest.fizzbuzz.*" />
+          <option name="PATTERN" value="com.example.javatest.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatest.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatest.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="when_is_dividible_per_5_is_Buzz" />
+      <option name="PACKAGE_NAME" value="com.example.javatest.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatest.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="insert_a_movie" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.when_is_dividible_per_5_then_Buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryIntegrationTest.load_all_movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatest.fizzbuzz.*" />
+          <option name="PATTERN" value="com.example.javatest.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatest.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatest.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="when_is_dividible_per_5_then_Buzz" />
+      <option name="PACKAGE_NAME" value="com.example.javatest.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatest.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_all_movies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.when_is_divisible_per_3_and_5_then_fizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryIntegrationTest.load_movie_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatest.fizzbuzz.*" />
+          <option name="PATTERN" value="com.example.javatest.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatest.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatest.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="when_is_divisible_per_3_and_5_then_fizzBuzz" />
+      <option name="PACKAGE_NAME" value="com.example.javatest.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatest.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_movie_by_id" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.when_is_divisible_per_3_then_fizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javatest.fizzbuzz.*" />
+          <option name="PATTERN" value="com.example.javatest.movies.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.javatest.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.example.javatest.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="when_is_divisible_per_3_then_fizz" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.javatest.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.javatest.movies.service.MovieServiceShould" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.when_is_divisible_per_3_and_5_then_fizzBuzz" />
-        <item itemvalue="JUnit.FizzBuzzTest.when_is_divisible_per_3_then_fizz" />
-        <item itemvalue="JUnit.FizzBuzzTest.when_is_dividible_per_5_then_Buzz" />
-        <item itemvalue="JUnit.FizzBuzzTest.when_is_dividible_per_5_is_Buzz" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.insert_a_movie" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_movie_by_id" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_all_movies" />
+        <item itemvalue="JUnit.MovieServiceShould" />
       </list>
     </recent_temporary>
   </component>
@@ -159,38 +188,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="69" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582694248416">
+    <state x="311" y="39" width="800" height="729" key="#Intentions" timestamp="1583116512918">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="741" y="69" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1582694248416" />
-    <state width="1253" height="152" key="GridCell.Tab.0.bottom" timestamp="1582437960054">
+    <state x="311" y="39" width="800" height="729" key="#Intentions/67.27.1299.741@67.27.1299.741" timestamp="1583116512918" />
+    <state x="206" y="70" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1583117863614">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="152" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582437960054" />
-    <state width="1253" height="152" key="GridCell.Tab.0.center" timestamp="1582437960053">
+    <state x="206" y="70" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1583117863614" />
+    <state width="1253" height="152" key="GridCell.Tab.0.bottom" timestamp="1583123278961">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="152" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582437960053" />
-    <state width="1253" height="152" key="GridCell.Tab.0.left" timestamp="1582437960053">
+    <state width="1253" height="152" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583123278961" />
+    <state width="1253" height="152" key="GridCell.Tab.0.center" timestamp="1583123278960">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="152" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582437960053" />
-    <state width="1253" height="152" key="GridCell.Tab.0.right" timestamp="1582437960053">
+    <state width="1253" height="152" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1583123278960" />
+    <state width="1253" height="152" key="GridCell.Tab.0.left" timestamp="1583123278960">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="152" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582437960053" />
+    <state width="1253" height="152" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1583123278960" />
+    <state width="1253" height="152" key="GridCell.Tab.0.right" timestamp="1583123278960">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="152" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1583123278960" />
+    <state x="198" y="333" width="377" height="126" key="ReplaceDuplicatesPrompt" timestamp="1583116272496">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="198" y="333" width="377" height="126" key="ReplaceDuplicatesPrompt/67.27.1299.741@67.27.1299.741" timestamp="1583116272496" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1582402370607">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582402370607" />
-    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1582765305922">
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583099579920">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1582765305922" />
-    <state x="617" y="63" width="551" height="705" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582782852063">
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1583099579920" />
+    <state x="617" y="63" width="568" height="705" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583118186901">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="617" y="63" width="551" height="705" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1299.741@67.27.1299.741" timestamp="1582782852063" />
+    <state x="617" y="63" width="568" height="705" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1299.741@67.27.1299.741" timestamp="1583118186901" />
+    <state x="125" y="127" width="568" height="539" key="extract.method.dialog" timestamp="1583116269200">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="125" y="127" width="568" height="539" key="extract.method.dialog/67.27.1299.741@67.27.1299.741" timestamp="1583116269200" />
     <state x="414" y="27" width="728" height="741" key="find.popup" timestamp="1582402253337">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

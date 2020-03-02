@@ -7,3 +7,7 @@ j
 :src/main/java/com/example/javatest/movies/model/Genre.java,4/8/48eee5d9eeca9b00abbc35cf008c6c49d46babf9
 s
 Csrc/main/java/com/example/javatest/movies/service/MovieService.java,b/9/b917d9a2d89e5168f35bd2ddac0ce0189b4808e0
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+y
+Isrc/test/java/com/example/javatest/movies/service/MovieServiceShould.java,b/e/bea249925a652b8846b7db25af15da6dad3e5e61
